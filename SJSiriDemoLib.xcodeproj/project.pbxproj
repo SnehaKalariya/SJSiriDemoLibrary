@@ -11,11 +11,11 @@
 		B96EEAEB24EFD89B00C33349 /* SJSiriDemoLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96EEAEA24EFD89B00C33349 /* SJSiriDemoLibTests.swift */; };
 		B96EEAED24EFD89B00C33349 /* SJSiriDemoLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B96EEADF24EFD89A00C33349 /* SJSiriDemoLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B96EEAFD24EFE42100C33349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96EEAFC24EFE42100C33349 /* AppDelegate.swift */; };
-		B96EEAFF24EFE42100C33349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96EEAFE24EFE42100C33349 /* SceneDelegate.swift */; };
 		B96EEB0124EFE42100C33349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96EEB0024EFE42100C33349 /* ViewController.swift */; };
 		B96EEB0424EFE42100C33349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96EEB0224EFE42100C33349 /* Main.storyboard */; };
 		B96EEB0624EFE43100C33349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96EEB0524EFE43100C33349 /* Assets.xcassets */; };
 		B96EEB0924EFE43100C33349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96EEB0724EFE43100C33349 /* LaunchScreen.storyboard */; };
+		B96EEB0F24EFFFBA00C33349 /* SJSiriDemoLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96EEB0E24EFFFBA00C33349 /* SJSiriDemoLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +37,12 @@
 		B96EEAEC24EFD89B00C33349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96EEAFA24EFE42000C33349 /* SJSiriDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJSiriDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96EEAFC24EFE42100C33349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B96EEAFE24EFE42100C33349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B96EEB0024EFE42100C33349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B96EEB0324EFE42100C33349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B96EEB0524EFE43100C33349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96EEB0824EFE43100C33349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96EEB0A24EFE43100C33349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96EEB0E24EFFFBA00C33349 /* SJSiriDemoLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJSiriDemoLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +96,7 @@
 			children = (
 				B96EEADF24EFD89A00C33349 /* SJSiriDemoLib.h */,
 				B96EEAE024EFD89A00C33349 /* Info.plist */,
+				B96EEB0E24EFFFBA00C33349 /* SJSiriDemoLib.swift */,
 			);
 			path = SJSiriDemoLib;
 			sourceTree = "<group>";
@@ -113,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				B96EEAFC24EFE42100C33349 /* AppDelegate.swift */,
-				B96EEAFE24EFE42100C33349 /* SceneDelegate.swift */,
 				B96EEB0024EFE42100C33349 /* ViewController.swift */,
 				B96EEB0224EFE42100C33349 /* Main.storyboard */,
 				B96EEB0524EFE43100C33349 /* Assets.xcassets */,
@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					B96EEADB24EFD89A00C33349 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					B96EEAE424EFD89B00C33349 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -263,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96EEB0F24EFFFBA00C33349 /* SJSiriDemoLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +282,6 @@
 			files = (
 				B96EEB0124EFE42100C33349 /* ViewController.swift in Sources */,
 				B96EEAFD24EFE42100C33349 /* AppDelegate.swift in Sources */,
-				B96EEAFF24EFE42100C33349 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +438,7 @@
 		B96EEAF124EFD89B00C33349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JY83R9N9VR;
@@ -453,6 +455,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.SJSiriDemoLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +465,7 @@
 		B96EEAF224EFD89B00C33349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JY83R9N9VR;
@@ -477,6 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.SJSiriDemoLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,6 +491,7 @@
 		B96EEAF424EFD89B00C33349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JY83R9N9VR;
 				INFOPLIST_FILE = SJSiriDemoLibTests/Info.plist;
@@ -503,6 +510,7 @@
 		B96EEAF524EFD89B00C33349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JY83R9N9VR;
 				INFOPLIST_FILE = SJSiriDemoLibTests/Info.plist;
